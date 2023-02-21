@@ -24,7 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="/private/var/folders/kh/0nn3d0cj5xlbzwv_dmyjvgrh0000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Reina\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -62,25 +62,25 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
+                                      <entry key="backgroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="62" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundClipArt">
                                         <value>
                                           <PersistentState>
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="f9f8f8" />
-                                                <entry key="imagePath" value="/private/var/folders/kh/0nn3d0cj5xlbzwv_dmyjvgrh0000gn/T/baseline_videogame_asset_24.xml" />
+                                                <entry key="imagePath" value="\" />
                                                 <entry key="scalingPercent" value="80" />
-                                              </map>
-                                            </option>
-                                          </PersistentState>
-                                        </value>
-                                      </entry>
-                                      <entry key="foregroundClipartAsset">
-                                        <value>
-                                          <PersistentState>
-                                            <option name="values">
-                                              <map>
-                                                <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/videogame_asset/baseline_videogame_asset_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -92,6 +92,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\Reina\Pictures\gato.png" />
+                                                <entry key="scalingPercent" value="49" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -124,8 +126,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="1c0c5e" />
-                                      <entry key="foregroundAssetType" value="CLIP_ART" />
+                                      <entry key="backgroundColor" value="e5c0e5" />
                                       <entry key="outputName" value="ic_launcher_app" />
                                       <entry key="showGrid" value="true" />
                                     </map>
@@ -144,7 +145,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="/private/var/folders/kh/0nn3d0cj5xlbzwv_dmyjvgrh0000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Reina\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -188,7 +189,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="/private/var/folders/kh/0nn3d0cj5xlbzwv_dmyjvgrh0000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Reina\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -252,7 +253,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="/private/var/folders/kh/0nn3d0cj5xlbzwv_dmyjvgrh0000gn/T/ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\Reina\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
