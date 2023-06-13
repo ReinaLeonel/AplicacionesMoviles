@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SignupFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fondo3"
+            android:scaleType="centerCrop" />
+
+        <!-- GuideLine TopMargin -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineTopMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.10"
+            />
+
+        <!-- GuideLine Top -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.28"
+            />
+
+        <!-- GuideLine Middle -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.70"
+            />
+
+        <!-- GuideLine Bottom -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.85"
+            />
+
+        <!-- GuideLine Left -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.10"
+            />
+
+        <!-- GuideLine Right -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.90"
+            />
+
+        <!-- Texto de bienvenida -->
+
+        <TextView
+            android:id="@+id/text_bienvenida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crea una cuenta"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            app:layout_constraintTop_toBottomOf="@id/guidelineTopMargin"
+            app:layout_constraintStart_toEndOf="@id/guidelineLeft"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRight"/>
+
+        <TextView
+            android:id="@+id/text_bienvenidaCon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="¡Unete a la comunidad!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_200"
+            app:layout_constraintTop_toBottomOf="@id/text_bienvenida"
+            app:layout_constraintStart_toEndOf="@id/guidelineLeft"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRight"/>
+
+        <!-- Datos a ingresar -->
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Correo electrónico"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            app:layout_constraintBottom_toTopOf="@id/edit_email"
+            app:layout_constraintTop_toBottomOf="@id/guidelineTop"
+            app:layout_constraintStart_toEndOf="@id/guidelineLeft" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="08dp"
+            android:ems="10"
+            android:hint="Ingrese su correo"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp"
+            app:layout_constraintBottom_toTopOf="@id/text_user"
+            app:layout_constraintLeft_toLeftOf="@id/guidelineLeft"
+            app:layout_constraintRight_toRightOf="@id/guidelineRight"
+            app:layout_constraintTop_toBottomOf="@id/text_email"/>
+
+        <TextView
+            android:id="@+id/text_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Usuario"
+            android:textColor="@color/purple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@id/edit_email" />
+
+        <EditText
+            android:id="@+id/edit_nameUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_user"
+            android:drawablePadding="08dp"
+            android:ems="10"
+            android:hint="Ingrese su nombre de usuario"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp"
+            app:layout_constraintLeft_toLeftOf="@id/guidelineLeft"
+            app:layout_constraintRight_toRightOf="@id/guidelineRight"
+            app:layout_constraintTop_toBottomOf="@id/text_user"/>
+
+        <TextView
+            android:id="@+id/text_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Contraseña"
+            android:textColor="@color/purple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@id/edit_nameUser" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/round_border"
+            android:drawableStart="@drawable/ic_pass"
+            android:drawablePadding="08dp"
+            android:ems="10"
+            android:hint="Ingrese su contraseña"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp"
+            app:layout_constraintLeft_toLeftOf="@id/guidelineLeft"
+            app:layout_constraintRight_toRightOf="@id/guidelineRight"
+            app:layout_constraintTop_toBottomOf="@id/text_password" />
+
+
+
+        <!-- Boton para ingresar -->
+        <Button
+            android:id="@+id/button_registrar"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Registrar"
+            android:background="@drawable/gradient"
+            app:layout_constraintBottom_toTopOf="@id/guidelineBottom"
+            app:layout_constraintTop_toBottomOf="@id/guidelineMiddle"
+            app:layout_constraintLeft_toLeftOf="@id/guidelineLeft"
+            app:layout_constraintRight_toRightOf="@id/guidelineRight"
+            />
+
+        <!-- Mensaje de: No esta registrado? -->
+        <TextView
+            android:id="@+id/text_Iniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="¿Ya tienes una cuenta?"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/guidelineBottom"
+            app:layout_constraintStart_toEndOf="@id/guidelineLeft"
+            app:layout_constraintEnd_toStartOf="@id/text_actionIniciar"/>
+
+        <TextView
+            android:id="@+id/text_actionIniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Inicia sesión"
+            android:textColor="@color/purple"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/guidelineBottom"
+            app:layout_constraintStart_toEndOf="@id/text_registrarNuevo"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRight"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
