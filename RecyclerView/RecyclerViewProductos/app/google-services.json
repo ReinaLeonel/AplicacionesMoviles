@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "776224577715",
+    "project_id": "dispositivosmoviles-ce919",
+    "storage_bucket": "dispositivosmoviles-ce919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776224577715:android:b833e290c5c7919d83b8c6",
+        "android_client_info": {
+          "package_name": "mx.ipn.cic.geo.app_productos_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776224577715-osv8sjt2f1c4bsqlcma4b5b3sgcj8s7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3SCUUsekbRKxF67cGFscU9CJ8kvdcOzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776224577715-osv8sjt2f1c4bsqlcma4b5b3sgcj8s7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776224577715:android:03ffb950c1f1dbda83b8c6",
+        "android_client_info": {
+          "package_name": "mx.ipn.cic.geo.recycler_view_productos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776224577715-osv8sjt2f1c4bsqlcma4b5b3sgcj8s7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3SCUUsekbRKxF67cGFscU9CJ8kvdcOzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776224577715-osv8sjt2f1c4bsqlcma4b5b3sgcj8s7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
